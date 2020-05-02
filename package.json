@@ -1,0 +1,36 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "REST API developed with node and mysql to train",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilherme-Farias/REST-API-NODE.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "rest-api"
+  ],
+  "author": "Guilherme Farias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilherme-Farias/REST-API-NODE/issues"
+  },
+  "homepage": "https://github.com/Guilherme-Farias/REST-API-NODE#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}

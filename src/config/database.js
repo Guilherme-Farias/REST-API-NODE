@@ -1,3 +1,5 @@
+//database config for the sequelize ORM
+
 module.exports = {
     dialect: 'mysql',
     host: 'localhost',

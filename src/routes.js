@@ -16,7 +16,6 @@ routes.post('/users/:user_id/techs', TechsController.store);
 routes.delete('/users/:user_id/techs', TechsController.delete);
 
 
-
 routes.get('/report', ReportController.show)
 
 

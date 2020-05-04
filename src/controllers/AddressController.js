@@ -2,6 +2,7 @@ const User = require('../models/User')
 const Address = require('../models/Address')
 
 module.exports = {
+    //list all addresses for user_id
     async index(req, res) {
         const { user_id } = req.params;
 
@@ -13,7 +14,7 @@ module.exports = {
     },
 
 
-
+    //add address for user user_id
     async store(req, res) {
         const { user_id } = req.params;
         const { zipcode, street, number } = req.body;
